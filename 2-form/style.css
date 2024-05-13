@@ -1,0 +1,16 @@
+#form-field {
+    max-width: 600px;
+}
+
+.info-item {
+  display: grid;
+  grid-template-columns: 140px 460px;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.info-item .warning-msg {
+  grid-column: 2 / 3;
+  color: red;
+  margin-bottom: 0;
+}
